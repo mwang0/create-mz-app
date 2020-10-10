@@ -1,0 +1,27 @@
+{
+  "name": "create-mz-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "M.Wang",
+  "main": "index.js",
+  "bin": {
+    "create-mz-app": "index.js",
+    "cma": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwang0/create-mz-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwang0/create-mz-app/issues"
+  },
+  "homepage": "https://github.com/mwang0/create-mz-app/#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "minimist": "^1.2.5"
+  }
+}
