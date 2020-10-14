@@ -1,0 +1,16 @@
+<script>
+import '@libs/regenerator';
+
+/**
+ * 应用级别的配置，供所有页面公用
+ */
+export default {
+  plugins: [],
+  onCreate() {
+    console.log('on app create');
+  },
+  onHide() {},
+  onDestroy() {},
+  onError() {}
+};
+</script>

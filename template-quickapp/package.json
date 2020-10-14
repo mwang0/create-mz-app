@@ -1,0 +1,37 @@
+{
+  "name": "template-quickapp",
+  "version": "1.0.0",
+  "subversion": {
+    "toolkit": "0.2.2"
+  },
+  "description": "",
+  "scripts": {
+    "build": "hap build",
+    "release": "hap release",
+    "server": "hap server",
+    "watch": "hap watch",
+    "cz": "git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "babel-eslint": "^10.0.1",
+    "commitizen": "^4.2.1",
+    "eslint": "^7.11.0",
+    "eslint-plugin-hybrid": "0.0.5",
+    "hap-toolkit": "*",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.1.1"
+  },
+  "dependencies": {
+    "@m.wang/fetch": "*",
+    "@m.wang/storage": "*"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}

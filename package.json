@@ -1,6 +1,6 @@
 {
   "name": "create-mz-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "M.Wang",
   "main": "index.js",
@@ -10,6 +10,7 @@
   },
   "files": [
     "index.js",
+    "utils.js",
     "template-*"
   ],
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/mwang0/create-mz-app/#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "fs-extra": "^9.0.1",
     "minimist": "^1.2.5"
   }
